@@ -2,9 +2,9 @@
   "name": "pata-feliz-banco-json",
   "version": "1.0.0",
   "description": "API mockada (JSON Server) do sistema Pata Feliz - Banho & Tosa",
-  "private": true,
+  "main": "index.js",
   "scripts": {
-    "start": "json-server db.json --host 0.0.0.0 --port ${PORT:-3000}",
+    "start": "node index.js",
     "dev": "json-server --watch db.json --port 3000"
   },
   "dependencies": {
